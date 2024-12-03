@@ -27,6 +27,26 @@ Ensure you have **Python** installed on your system.
 To install the dependencies listed in the requirements.txt file, use the following command: 
 `pip install -r requirements.txt`
 
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/project-name.git
+   cd project-name
+
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the app:
+   ```bash
+   flask --app main run
+   
+4. Create a .env file and add the following environment variables:
+   ```bash
+   SECRET_KEY=your_secret_key
+   DATABASE_URL=your_database_url
+
+
 
 
 
