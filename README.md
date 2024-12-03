@@ -4,6 +4,22 @@
 ## Description
 This project is an **educational platform** designed to help students apply for bachelor's degree programs in various foreign countries. The platform provides comprehensive guides and courses for the application process, offering step-by-step instructions for students who wish to study abroad.
 
+## User Roles
+
+- **Admin User**: Users with an `id = 1` are designated as admin users. Admins have full access to the platform's **CRUD (Create, Read, Update, Delete)** capabilities, allowing them to manage courses, universities, and other content. Admin users can see additional buttons for editing or deleting courses and other resources that regular users cannot access.
+
+- **Regular User**: Regular users can register, browse courses, and access the content they have purchased. They do not have access to admin features.
+
+## Accessing Courses with a Course Code
+
+Each course on the platform is associated with a unique course code. For example, if a user enters the course code `240290`, they will be directed to one of the courses available on the platform. This system helps users easily navigate to the correct course by entering the code associated with it. While loggin in if you use 240290 as Course Code you will be able to see content of one course.
+
+### How to Use the Course Code:
+1. Log in with your credentials.
+2. Navigate to the course search or entry page.
+3. Enter the course code (e.g., `240290`) to access the corresponding course page.
+
+
 ### Key Features
 - **Country-Specific Guides**: Detailed guides explaining the application process for different countries (e.g., Poland).
 - **Course Registration & Payment**: Users can purchase courses/guides and register to access the information.
