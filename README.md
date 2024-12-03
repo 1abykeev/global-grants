@@ -12,12 +12,11 @@ This project is an **educational platform** designed to help students apply for 
 
 ## Accessing Courses with a Course Code
 
-Each course on the platform is associated with a unique course code. For example, if a user enters the course code `240290`, they will be directed to one of the courses available on the platform. This system helps users easily navigate to the correct course by entering the code associated with it. While loggin in if you use 240290 as Course Code you will be able to see content of one course.
+Each course on the platform is associated with a unique course code. For example, if a user enters the course code `240290`, they will be directed to one of the courses available on the platform. This system helps users easily navigate to the correct course by entering the code associated with it. 
 
 ### How to Use the Course Code:
 1. Log in with your credentials.
-2. Navigate to the course search or entry page.
-3. Enter the course code (e.g., `240290`) to access the corresponding course page.
+2. Enter the course code (e.g., `240290`) to access the corresponding course page.
 
 
 ### Key Features
