@@ -45,7 +45,7 @@
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="{{ url_for('index')}}" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
+
           <img src="{{ url_for('static', filename='assets/img/logotip.jpg') }}" alt="Global Grants Logo" class="img-fluid logo-img">
           
         </a>
@@ -56,6 +56,16 @@
             <li><a href="{{ url_for('about')}}">About</a></li>
             <li><a href="{{ url_for('pricing')}}">Pricing</a></li>
             <li><a href="{{ url_for('contact')}}">Contact</a></li>
+
+            <li class="dropdown"><a href="#"><span>Universities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="{{ url_for('university_list_poland')}}">Poland Universities</a></li>
+                <li><a href="{{ url_for('university_list_turkiye')}}">Turkiye Universities</a></li>
+              </ul>
+            </li>
+
+
+
             <!-- Only show Login/Register if user is logged out. Otherwise show "Log Out" -->
             {% if not current_user.is_authenticated: %}
             <li><a href="{{ url_for('login')}}">Log In</a></li>
