@@ -20,14 +20,12 @@ This project is an **educational platform** designed to help students apply for 
 - **Security**: Werkzeug for password hashing
 - **Web Scraping/Validation**: Bleach and MarkupSaf
 
-### Installation & Prerequisites
-Ensure you have **Python** installed on your system. You can check this by running:
-```bash
-python --version
+### Installation
+Ensure you have **Python** installed on your system.
 
-
-To install the dependencies listed in the requirements.txt file, use the following command:
-pip install -r requirements.txt
+### Requirement
+To install the dependencies listed in the requirements.txt file, use the following command: 
+`pip install -r requirements.txt`
 
 
 
