@@ -28,3 +28,12 @@ This project is an **educational platform** designed to help students apply for 
 Ensure you have **Python** installed on your system. You can check this by running:
 ```bash
 python --version
+
+### To install the dependencies listed in the requirements.txt file, use the following command:
+pip install -r requirements.txt
+
+
+
+
+
+
