@@ -61,6 +61,8 @@ To install the dependencies listed in the requirements.txt file, use the followi
    SECRET_KEY=your_secret_key
    DATABASE_URL=your_database_url
 
+## Project Status
+This project is currently in **development**.
 
 
 
