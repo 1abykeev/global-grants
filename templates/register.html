@@ -1,0 +1,75 @@
+
+
+{% include "header.html" %}
+
+
+<main class="main">
+
+  <!-- Page Title -->
+  <div class="page-title" data-aos="fade">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="register.html">Home</a></li>
+          <li class="current">Register</li>
+        </ol>
+      </nav>
+      <h1>Register</h1>
+    </div>
+  </div><!-- End Page Title -->
+
+  
+  <section id="register" class="register section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-person-plus"></i>
+            <h3>Create Your Account</h3>
+            <p>Fill in the details below to register.</p>
+          </div>
+        </div>
+  
+        <div class="col-lg-6">
+          <form action="{{ url_for('register') }}" method="post">
+            {{ form.hidden_tag() }}
+            <p>
+              {{ form.name.label }}<br>
+              {{ form.name(class="form-control") }}
+              {% if form.name.errors %}
+                <span style="color: red;">{{ form.name.errors[0] }}</span>
+              {% endif %}
+            </p>
+            <p>
+              {{ form.email.label }}<br>
+              {{ form.email(class="form-control") }}
+              {% if form.email.errors %}
+                <span style="color: red;">{{ form.email.errors[0] }}</span>
+              {% endif %}
+            </p>
+            <p>
+              {{ form.password.label }}<br>
+              {{ form.password(class="form-control") }}
+              {% if form.password.errors %}
+                <span style="color: red;">{{ form.password.errors[0] }}</span>
+              {% endif %}
+            </p>
+            <!-- Spacing for the submit button -->
+            <div class="mt-4">
+              {{ form.submit(class="btn btn-primary") }}
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <p>Already have an account? <a href="{{ url_for('login') }}" class="login-link">Login here</a></p>
+    </div>
+  </div><!-- End Registration Form -->
+  </section>
+  
+
+</main>
+
+{% include "footer.html" %}
+

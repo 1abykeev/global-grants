@@ -1,0 +1,120 @@
+
+
+{% include "header.html" %}
+
+<main class="main">
+
+
+  <!-- Page Title -->
+   <br>
+  <div class="page-title d-flex flex-column justify-content-center align-items-center">
+    <i class="bi bi-person-check" style="font-size: 80px; color: #555;"></i>
+    <p style="font-size: 24px; color: #555; margin-top: 10px; text-align: center;">
+      You can contact us anytime! We’re here to help you 24/7.
+    </p>
+  </div><!-- End Page Title -->
+
+  <!-- Social Media Section -->
+  <section id="social-media" class="section">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Telegram -->
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center">
+            <a href="https://t.me/yourtelegramlink" target="_blank">
+              <i class="bi bi-telegram"></i>
+            </a>
+            <h3>Telegram</h3>
+          </div>
+        </div>
+
+        <!-- Instagram -->
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center">
+            <a href="https://www.instagram.com/yourinstagramlink" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <h3>Instagram</h3>
+          </div>
+        </div>
+
+        <!-- TikTok -->
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center">
+            <a href="https://www.tiktok.com/@yourtiktoklink" target="_blank">
+              <i class="bi bi-tiktok"></i>
+            </a>
+            <h3>TikTok</h3>
+          </div>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center">
+            <a href="https://wa.me/yourwhatsapplink" target="_blank">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <h3>WhatsApp</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Social Media Section -->
+</main>
+
+{% include "footer.html" %}
+
+<!-- Embedded CSS -->
+<style>
+  /* Page Title */
+  .page-title {
+    background-color: #ffffff;
+    padding: 0px 0px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  /* Social Media Section Styling */
+  #social-media {
+    background-color: #ffffff;
+    padding: 60px 0;
+  }
+
+  .info-item {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .info-item:hover {
+    transform: translateY(-10px);
+  }
+
+  .info-item i {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+
+  .info-item h3 {
+    font-size: 20px;
+    color: #007bff;
+  }
+
+  /* Add specific icon colors */
+  .info-item a i {
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+
+  .info-item a:hover i {
+    color: #ff6f00; /* Orange color on hover */
+  }
+
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+    #social-media .col-md-6 {
+      flex: 0 0 100%; /* Stack the items on small screens */
+    }
+  }
+</style>
