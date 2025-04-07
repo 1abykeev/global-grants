@@ -62,6 +62,6 @@ To install the dependencies listed in the requirements.txt file, use the followi
    DATABASE_URL=your_database_url
 
 ## Project Status
-This project is currently in **development**.
+Done.
 
 
