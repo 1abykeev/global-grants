@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# global-grants
-Educational Platform for Applying to Foreign Countries
-=======
 
-# Educational Platform for Studying Abroad
+# Educational Platform for Applying to Foreign Countries
 
 ## Description
 This project is an **educational platform** designed to help students apply for bachelor's degree programs in various foreign countries. The platform provides comprehensive guides and courses for the application process, offering step-by-step instructions for students who wish to study abroad.
@@ -69,9 +65,3 @@ To install the dependencies listed in the requirements.txt file, use the followi
 This project is currently in **development**.
 
 
-
-
-
-
-
->>>>>>> master
